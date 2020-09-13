@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+/*overflow: este estilo especificará al navegador el trato que tiene que darle a un texto que no cabe en el espacio que le hemos especificado. 
+'Hidden': Ajustará el contenido al tamaño asignado y lo que no quepa no lo mostrará.(se usa para acomodar lo de 'float'. Se elimina el ema de la "limpieza" de la flotación).
+' box-sizing: border-box;' es para que cad caja se mantenga en su sitio, debido a que  el ancho de un elemento se altera si se le aplica un borde o un padding. Entonces, cuando ajustas un elemento con 'box-sizing: border-box;', el padding y border de ese elemento no incrementan su ancho y se queda todo ordenado.
+En este caso particular, mantiene el 'padding' de las columnas al 10px, pero ajusta automáticamente el 'width' que medía 33,33%.
+OJO, no funciona con el 'margin'. Sólo funciona con 'padding' y 'border'.*/
+
+
+
+.logo{
+    background-color:#D75FE3;
+    height: 80px;
+    text-align: left; 
+    padding: 20px 15px;  
+}
+
+.columnas{
+    background-color: #D7E3BF;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+/*'margin: 0 auto' E para acomodar mejor el sector 'columnas' pq se estaba yendo hacia un costado en vez e quedar centrado*/
+.columnasx3{
+
+    background-color:#D7B3E3;
+    width: 33.33%;
+    height: 474px;
+    float: left;
+    padding: 15px 15px;   
+    
+}
+
+
+footer{
+    background-color:#E3C9B3;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(125, 7, 125);
+    padding: 5px;
+    margin-top: 0px;
+}

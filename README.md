@@ -1,4 +1,4 @@
 # columnas2
 Float
 
-Haciendo columnas con CSS porque quiero practicar 'float'.
+Haciendo columnas con CSS porque quiero practicar 'float'...
